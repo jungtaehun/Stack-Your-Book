@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stack Your Book</string>
+    <string name="start">내 서재</string>
+    <string name="no_notes">현재 쌓여있는 책이 없습니다. 책을 추가하시기 바랍니다.</string>
+    <string name="menu_insert">서재에 책 추가하기</string>
+    <string name="menu_delete">책 지우기</string>
+    <string name="title">책 제목</string>
+    <string name="body">독서 활동 내용</string>
+    <string name="confirm">확인</string>
+    <string name="edit_note">책 수정하기</string>
+</resources>

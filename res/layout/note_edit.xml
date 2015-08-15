@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:background="@drawable/wood"
+	android:layout_height="match_parent">
+	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/title" />
+		<EditText android:id="@+id/title" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="작가" />
+
+		<EditText
+		    android:id="@+id/writer"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.92" />
+
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="독서 분야" />
+		<EditText android:id="@+id/type" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="7pt"
+			android:hint="인문, 과학, 사회, 예체능 중에 선택"
+			android:layout_weight="1"/>
+	</LinearLayout>
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:gravity="center"
+		android:textSize="10pt"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+		android:text="@string/body" />
+	<EditText android:id="@+id/body"
+	    android:layout_width="match_parent"
+	    android:background="#55ffffff"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:scrollbars="vertical" />
+	
+	<Button android:id="@+id/confirm" 
+	  android:text="@string/confirm"
+		android:layout_width="fill_parent"
+		android:gravity="center"
+		android:layout_height="wrap_content" />
+
+</LinearLayout>
